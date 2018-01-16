@@ -1,0 +1,43 @@
+{
+  "data": {
+    "types": {
+      "machine": {
+        "persistence": { "attachments": [] },
+        "schema": {
+          "type": "object",
+          "title": "Wasserkraftwerk",
+          "properties": {
+            "name": { "type": "string" }
+          }
+        }
+      },
+      "employee": {
+        "persistence": { "attachments": [] },
+        "schema": {
+          "type": "object",
+          "title": "Mitarbeiter",
+          "properties": {
+            "givenName": { "type": "string" },
+            "familyName": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "ui": {
+    "menu": ["employee", "machine"],
+    "types": {
+      "machine": {
+        "header": ["name"],
+        "schema": {}
+      },
+      "employee": {
+        "header": ["givenName", "familyName"],
+        "schema": {
+          "givenName": { "ui:title": "Vorname" },
+          "familyName": { "ui:title": "Nachname" }
+        }
+      }
+    }
+  }
+}

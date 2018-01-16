@@ -1,0 +1,32 @@
+{
+  "name": "ps-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "keywords": [],
+  "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@domachine/neutrino-preset-app": "^1.0.1",
+    "@types/history": "^4.6.2",
+    "@types/jest": "^21.1.10",
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "neutrino": "^8.0.14"
+  },
+  "dependencies": {
+    "@domachine/cds-react": "0.0.1",
+    "@domachine/cds-react-nifty": "0.0.0",
+    "history": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6"
+  }
+}
