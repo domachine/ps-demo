@@ -10,8 +10,11 @@
             "name": { "type": "string" },
             "addressLocality": { "type": "string", "title": "Standort" },
             "photos": { "type": "array", "items": {
-              "photo": { "type": "string", "format": "data-url" },
-              "description": { "type": "string", "title": "Beschreibung" }
+              "type": "object",
+              "properties": {
+                "photo": { "type": "string", "format": "data-url" },
+                "description": { "type": "string", "title": "Beschreibung" }
+              }
             } }
           }
         }
