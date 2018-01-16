@@ -18,7 +18,9 @@
           "title": "Mitarbeiter",
           "properties": {
             "givenName": { "type": "string" },
-            "familyName": { "type": "string" }
+            "familyName": { "type": "string" },
+            "postalCode": { "type": "string", "title": "PLZ" },
+            "addressLocality": { "type": "string", "title": "Ort" }
           }
         }
       }
