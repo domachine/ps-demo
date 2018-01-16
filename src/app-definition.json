@@ -7,7 +7,12 @@
           "type": "object",
           "title": "Wasserkraftwerk",
           "properties": {
-            "name": { "type": "string" }
+            "name": { "type": "string" },
+            "addressLocality": { "type": "string", "title": "Standort" },
+            "photos": { "type": "array", "items": {
+              "photo": { "type": "string", "format": "data-url" },
+              "description": { "type": "string", "title": "Beschreibung" }
+            } }
           }
         }
       },
